@@ -1,0 +1,203 @@
+{
+  "contractName": "User",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "authority",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060c68061001f6000396000f3fe608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663bf7e214f81146043575b600080fd5b348015604e57600080fd5b506055607e565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b60005473ffffffffffffffffffffffffffffffffffffffff168156fea165627a7a72305820ee70508620127437acc0d8ed86747a636c4c30a30be1328b1248cef2efa89a800029",
+  "deployedBytecode": "0x608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663bf7e214f81146043575b600080fd5b348015604e57600080fd5b506055607e565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b60005473ffffffffffffffffffffffffffffffffffffffff168156fea165627a7a72305820ee70508620127437acc0d8ed86747a636c4c30a30be1328b1248cef2efa89a800029",
+  "sourceMap": "53:292:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;53:292:4;;;;;;;",
+  "deployedSourceMap": "53:292:4:-;;;;;;;;;;;;;;;;;;;;;;;74:24;;8:9:-1;5:2;;;30:1;27;20:12;5:2;74:24:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\nimport \"./Government.sol\";\r\ncontract User {\r\n    address public authority;\r\n\r\n    // constructor(address _authority) public {\r\n    //     authority = _authority;\r\n    // }\r\n\r\n    // function requestFund(uint amount) public view returns (bool) {\r\n    //     return Authority(authority).verifyRequest(amount);\r\n    // }\r\n}\r\n",
+  "sourcePath": "C:/DCP/contracts/User.sol",
+  "ast": {
+    "absolutePath": "/C/DCP/contracts/User.sol",
+    "exportedSymbols": {
+      "User": [
+        207
+      ]
+    },
+    "id": 208,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 203,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "absolutePath": "/C/DCP/contracts/Government.sol",
+        "file": "./Government.sol",
+        "id": 204,
+        "nodeType": "ImportDirective",
+        "scope": 208,
+        "sourceUnit": 92,
+        "src": "25:26:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 207,
+        "linearizedBaseContracts": [
+          207
+        ],
+        "name": "User",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 206,
+            "name": "authority",
+            "nodeType": "VariableDeclaration",
+            "scope": 207,
+            "src": "74:24:4",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 205,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "74:7:4",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 208,
+        "src": "53:292:4"
+      }
+    ],
+    "src": "0:347:4"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/DCP/contracts/User.sol",
+    "exportedSymbols": {
+      "User": [
+        207
+      ]
+    },
+    "id": 208,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 203,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "absolutePath": "/C/DCP/contracts/Government.sol",
+        "file": "./Government.sol",
+        "id": 204,
+        "nodeType": "ImportDirective",
+        "scope": 208,
+        "sourceUnit": 92,
+        "src": "25:26:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 207,
+        "linearizedBaseContracts": [
+          207
+        ],
+        "name": "User",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 206,
+            "name": "authority",
+            "nodeType": "VariableDeclaration",
+            "scope": 207,
+            "src": "74:24:4",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 205,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "74:7:4",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 208,
+        "src": "53:292:4"
+      }
+    ],
+    "src": "0:347:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xE6223567e2C62f91674e2d2e089D6F0eb9110A18",
+      "transactionHash": "0x2746ae3cb211e6f966bdafebba8dac1499ad1ea18a30c542d85b3909e63a9421"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2024-05-07T15:32:23.787Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

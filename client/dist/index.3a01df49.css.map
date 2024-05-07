@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAIA;;;;;AAKA","sources":["style.css"],"sourcesContent":["#header {\r\n  margin-bottom: 20px;\r\n}\r\n\r\n#tickets {\r\n  display: grid;\r\n  grid-template-columns: repeat(4, 1fr);\r\n}\r\n\r\n.ticket {\r\n  display: inline-block;\r\n  margin-bottom: 20px;\r\n}\r\n"],"names":[],"version":3,"file":"index.3a01df49.css.map","sourceRoot":"/__parcel_source_root/"}
